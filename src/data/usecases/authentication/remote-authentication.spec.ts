@@ -1,3 +1,4 @@
+import faker from 'faker'
 import { HttpPostClient } from 'data/protocols/http'
 import { HttpPostClientSpy } from '../../test'
 import { RemoteAuthentication } from './remote-authentication'
@@ -7,7 +8,7 @@ type SutTypes = {
   httpPostClientSpy: HttpPostClient
 }
 
-const makeSut = (url: string): SutTypes => {
+const makeSut = (url: string = faker.internet.url()): SutTypes => {
   const httpPostClientSpy = new HttpPostClientSpy()
   const sut = new RemoteAuthentication(url, httpPostClientSpy)
   return {
