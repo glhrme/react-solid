@@ -12,5 +12,8 @@ module.exports = {
     'ts-jest': {
       isolatedModules: true
     }
-  }
+  },
+  modulePaths: [
+    "<rootDir>/src"
+  ]
 }
