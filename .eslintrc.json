@@ -36,7 +36,36 @@
       "error",
       100
     ],
-    "@typescript-eslint/consistent-type-definitions": "off"
+    "@typescript-eslint/consistent-type-definitions": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".ts",
+          ".tsx"
+        ]
+      }
+    ],
+    "import/extensions": [
+      2,
+      "never",
+      {
+        "css": "always",
+        "svg": "always",
+        "woff": "always",
+        "eot": "always",
+        "ttf": "always",
+        "otf": "always",
+        "woff2": "always",
+        "theme": "always",
+        "style": "always",
+        "png": "always"
+      }
+    ],
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": [
+      "error"
+    ]
   },
   "settings": {
     "import/resolver": {
