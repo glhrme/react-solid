@@ -1,7 +1,12 @@
 module.exports = {
   roots: ['<rootDir>/src'],
   collectCoverageFrom: [
-    '<rootDir>/src/**/*.{ts, tsx}'
+    '<rootDir>/src/**/*.{ts, tsx}',
+    '<rootDir>/src/**/**/*.{ts, tsx}',
+    '<rootDir>/src/**/**/**/*.{ts, tsx}',
+    '!<rootDir>/src/setupTests.{ts, tsx}',
+    '!<rootDir>/src/**/*.d.{ts, tsx}',
+    '!<rootDir>/src/reportWebVitals.{ts, tsx}'
   ],
   coverageDirectory: 'coverage',
   testEnvironment: 'node',

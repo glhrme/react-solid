@@ -23,7 +23,7 @@
     "test": "yarn jest --passWithNoTests",
     "test:watch": "yarn test --watch",
     "test:staged": "yarn test --findRelatedTests",
-    "test:ci": "yarn test --coverage",
+    "test:ci": "yarn jest --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
