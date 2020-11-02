@@ -1,1 +1,1 @@
-export { AuthenticationParams, Authentication } from './authentication'
+export * from './authentication'

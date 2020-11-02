@@ -1,2 +1,2 @@
-export { InvalidCredentialsError } from './invalid-credentials-error'
-export { UnexpectedError } from './unexpected-error'
+export * from './invalid-credentials-error'
+export * from './unexpected-error'

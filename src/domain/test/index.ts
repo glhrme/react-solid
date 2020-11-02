@@ -1,1 +1,1 @@
-export { mockAuthentication, mockAccountModel } from './mock-account'
+export * from './mock-account'
