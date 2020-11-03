@@ -1,5 +1,8 @@
 import { HttpResponse } from './http-responses'
 
+/**
+ * HttpPostParams T=RequestBody
+ */
 export type HttpPostParams<T> = {
   url: string
   body?: T
