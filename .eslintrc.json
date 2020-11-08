@@ -84,6 +84,9 @@
     ]
   },
   "settings": {
+    "react": {
+      "version": "detect"
+    },
     "import/resolver": {
       "node": {
         "extensions": [
@@ -96,9 +99,6 @@
           "src/"
         ]
       }
-    },
-    "react": {
-      "version": "detect"
     }
   }
 }

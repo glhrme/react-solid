@@ -9,9 +9,9 @@ module.exports = {
     '!<rootDir>/src/reportWebVitals.{ts, tsx}'
   ],
   coverageDirectory: 'coverage',
-  testEnvironment: 'node',
+  testEnvironment: 'jsdom',
   transform: {
-    '.+\\.ts$': 'ts-jest'
+    '.+\\(.ts|.tsx)$': 'ts-jest'
   },
   globals: {
     'ts-jest': {
