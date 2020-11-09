@@ -11,7 +11,7 @@ module.exports = {
   coverageDirectory: 'coverage',
   testEnvironment: 'jsdom',
   transform: {
-    '.+\\(.ts|.tsx)$': 'ts-jest'
+    '.+\\.(ts|tsx)$': 'ts-jest'
   },
   globals: {
     'ts-jest': {
@@ -20,5 +20,8 @@ module.exports = {
   },
   modulePaths: [
     "<rootDir>/src"
-  ]
+  ],
+  moduleNameMapper: {
+    '\\.scss$': 'identity-obj-proxy'
+  }
 }
