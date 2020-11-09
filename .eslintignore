@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 webpack.config.js
+*.scss
 
 # testing
 /coverage

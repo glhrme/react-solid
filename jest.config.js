@@ -6,7 +6,8 @@ module.exports = {
     '<rootDir>/src/**/**/**/*.{ts, tsx}',
     '!<rootDir>/src/setupTests.{ts, tsx}',
     '!<rootDir>/src/**/*.d.{ts, tsx}',
-    '!<rootDir>/src/reportWebVitals.{ts, tsx}'
+    '!<rootDir>/src/reportWebVitals.{ts, tsx}',
+    '!**/*.d.ts'
   ],
   coverageDirectory: 'coverage',
   testEnvironment: 'jsdom',
