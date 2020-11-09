@@ -1,4 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Login from 'presentation/pages/login'
 
-const App = () => <h1>Oi</h1>
+ReactDOM.render(
+  <Login />,
+  document.getElementById('main')
+)
