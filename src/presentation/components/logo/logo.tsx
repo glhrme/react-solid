@@ -1,8 +1,8 @@
 import React from 'react'
 import { LOGO64 } from './constants'
 
-const Spinner = () => (
+const Logo = () => (
   <img src={LOGO64} alt="Logo 4Devs" />
 )
 
-export default Spinner
+export default Logo
