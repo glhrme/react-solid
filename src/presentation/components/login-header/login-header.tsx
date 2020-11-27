@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { memo } from 'react'
 import Logo from 'presentation/components/logo'
-import Styles from './loginHeader-styles.scss'
+import Styles from './login-header-styles.scss'
 
 const LoginHeader = () => (
   <header className={Styles.header}>
@@ -9,4 +9,4 @@ const LoginHeader = () => (
   </header>
 )
 
-export default LoginHeader
+export default memo(LoginHeader)

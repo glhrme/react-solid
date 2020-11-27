@@ -1,6 +1,6 @@
 import React from 'react'
 import Spinner from 'presentation/components/spinner'
-import LoginHeader from 'presentation/components/loginHeader'
+import LoginHeader from 'presentation/components/login-header'
 import Styles from './login-styles.scss'
 
 const Login: React.FC = () => (
