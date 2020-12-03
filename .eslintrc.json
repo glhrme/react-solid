@@ -38,6 +38,7 @@
       100
     ],
     "no-shadow": "off",
+    "react/jsx-props-no-spreading": 0,
     "@typescript-eslint/no-shadow": ["error"],
     "no-useless-constructor": 0,
     "no-empty-function": 0,

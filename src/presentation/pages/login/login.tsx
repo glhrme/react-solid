@@ -2,6 +2,7 @@ import React from 'react'
 import Spinner from 'presentation/components/spinner'
 import LoginHeader from 'presentation/components/login-header'
 import Footer from 'presentation/components/footer'
+import Input from 'presentation/components/input'
 import Styles from './login-styles.scss'
 
 const Login: React.FC = () => (
@@ -9,14 +10,8 @@ const Login: React.FC = () => (
     <LoginHeader />
     <form className={Styles.form}>
       <h2>Login</h2>
-      <div className={Styles.inputWrap}>
-        <input type="email" name="email" placeholder="Digite seu e-mail" />
-        <span className={Styles.status}>🔴</span>
-      </div>
-      <div className={Styles.inputWrap}>
-        <input type="password" name="password" placeholder="Digite sua senha" />
-        <span className={Styles.status}>🔴</span>
-      </div>
+      <Input type="email" name="email" placeholder="Digite seu e-mail" />
+      <Input type="password" name="password" placeholder="Digite sua senha" />
       <button className={Styles.btnSubmit} type="submit">Entrar</button>
       <span className={Styles.link}>Criar conta</span>
       <div className={Styles.errorWrap}>
