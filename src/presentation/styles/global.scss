@@ -1,3 +1,5 @@
+@import './colors.scss';
+
 * {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -20,5 +22,17 @@ button {
 
   &:hover {
     opacity: 0.9;
+  }
+}
+
+input[type="password"],
+input[type="email"] {
+  border: 1px solid $primaryDark;
+  line-height: 40px;
+  border-radius: 4px;
+  padding: 0px 40px 0px 8px;
+
+  &:focus {
+    outline-color: $primaryLight;
   }
 }
