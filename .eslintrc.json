@@ -22,6 +22,7 @@
     "@typescript-eslint"
   ],
   "rules": {
+    "no-param-reassign": 0,
     "no-unused-vars": 0,
     "linebreak-style": 0,
     "semicolon": 0,
